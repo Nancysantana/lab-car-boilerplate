@@ -1,68 +1,240 @@
 /* Los estilos de tu proyecto */
 
+h2 {
+  margin: 0;
+}
+
+body > section:nth-child(5) > div > div.col-md-7 > div.col-md-6 > p {
+  margin-top: 3vh;
+}
+
+/* imagen punto de partida */
+div.col-md-7 > div.col-md-1 > img:nth-child(1)  {
+  margin-top: 30vh;
+  margin-left: 5vh;
+
+}
+
+/* flecha destino seccion ubicacion */
+div.col-md-7 > div.col-md-1 > img:nth-child(2) {
+  margin-top: 6vh;
+  margin-left: 5vh;
+}
+
+/* logo blanco footer */
+body > footer > section > div:nth-child(1) > div > img {
+  margin-top: 10vh;
+}
+
+/* color y espacio a los iconos */
+i {
+  color: #fff;
+  margin: 0.5vw;
+}
+
+/* imagen App store */
+ div:nth-child(3) > img:nth-child(1) {
+  margin-top: 20vh;
+  width: 10vw;
+}
+
+/* imagen Google Play */
+div:nth-child(3) > img:nth-child(2) {
+  margin-top: 3vh;
+  width: 10vw;
+}
+
+
+/* lineas blancas hr */
 .lin {
   width: 30%;
 }
 
-p {
-  color: #fff;
+/* texto footer */
+.p-white {
   font-size: 1em;
-  margin: 3% 6%;
+  color: #fff;
 }
 
-.p1 {  
-font-size: 1.3em;
-margin-top: 5vh;
+/* texto seccion taxi */
+.p2 {
+  font-size: 1.4em;
+  margin-top: 2vh;
 }
 
+
+.p3 {
+  font-size: 1.4em;
+  margin: 0vh 10% ;
+}
+
+/* parrafo 2 conductor */
+.p4 {
+  color: #fff;
+  font-size: 1.1em;
+}
+
+/* booton taxi */
+.bot1 {
+  font-size: 1em;
+  padding: 2%;
+  margin: 0.5vh 0;
+}
+
+/* estilo de boton seccion conductor */
+.bot2 {
+  background: #f7b617;
+  border: none;
+  border-radius: 7px;
+  font-size: 1.4em;
+  padding: 2%;
+  margin: 1vh;
+}
+
+/* ajustando menu hamburguesa  */
+.m-burg {
+  margin-top: 2vh;
+  margin-left: 5vw;
+}
+
+/* imagen de taxi como fondo */
 .bg-img {
   background-image: url("../assets/images/taxi.jpg");
-  /* background-repeat: no-repeat; */
   background-size: cover;
   background-position: bottom;
-  padding: 10% 0px;
+  padding: 5% 0px;
   height: 100vh;
 }
 
-.log-1 {
-  width: 20%;
-  margin: 3px;
+
+/* bajando el texto seccion conductor */
+.h2 {
+  font-size: 1.4em;
+  color: #fff;
+  margin-top: 35vh;
 }
 
+/* imagen de conductor como fondo */
+.bg-img1 {
+  background-image: url("../assets/images/conduce.jpg");
+  background-size: cover;
+  background-position: bottom;
+  height: 100vh;
+}
+
+/* ajustando tamaño del logo blanco seccion taxi */
+.log-1 {
+  width: 20%;
+  margin: 2vh;
+}
+
+/* fondo de texto seccion taxi */
 .sec-reg {
   background-color: #f7b617;
   color: #fff;
-  height: 50vh;
+  height: 55vh;
   padding: 3%;
 }
 
+/* bajamos el texto */
+.m-top {
+  margin-top: 13vh;
+}
+
+/* Fondo de la seccion phone */
 .sec-cel {
   background-color: #f7b617;
   color: #fff;
-  height: 80vh;
+  height: 90vh;
   padding: 5% 0%;
 }
 
-.bg-cond {
-  background-image: url("../assets/images/conduce.jpg");
-}
 
+/* fondo del footer */
 .bg-footer {
   background: #2b2b2b;
+  height: 70vh;
 }
 
-/* .bg {
-  background-color: #000;
+/* fondo de conductor */
+.bg {
+  background-color: rgba(39, 39, 59,0.5);
+  color: #fff;
   opacity: 0.50;
-  height: 50vh;
-} */
+  height: 100vh;
+  padding: 10%;
+}
 
+/* borde en la seccion phone */
 .border {
   border: 1px solid #fff;
   padding: 2%;
-  margin: 0%;
 }
 
-.sec-cel2 {
+/* fondo y alto de la seccion ubicacion */
+.sec-4 {
+background: #f7b617;
+color: #fff;
+font-size: 1.6em;
+height: 80vh;
+}
 
+/* Fondo y border de los imput  */
+.img-ubication {
+ background: #f7b617;
+ border: 2px solid #fff;
+ border-radius: 8px;
+ margin-left: 2vw ;
+ margin: 3vh;
+}
+
+
+
+
+/* sestilos de la version movil */
+/* texto seccion taxi */
+div.row.bg-img.visible-xs > div > p {
+  font-size: 5em;
+}
+
+.btn1 {
+  font-size: 3em;
+  margin-top: 3vh;
+  margin-left: 3vw;
+}
+
+/* seccion dos movil  */
+.text-left {
+  font-size: 3em;
+  margin-top: 7vh;
+  margin-left: 2vw;
+}
+
+.sec-cel1 {
+  background-color: #f7b617;
+  color: #fff;
+  height: 70vh;
+  padding: 5% 0%;
+}
+
+/*  seccion tres movil*/
+
+.text-top {
+  /* background: rgba(rgb(39, 39, 59,0.5); */
+  color: #fff;
+  font-size: 2em;
+  margin-top: 27vh;
+}
+
+/* seccion cuatro movil */
+.alin-text {
+  font-size: 2em;
+  margin-top: 10vh;
+  margin-left: 5vw;
+}
+
+
+  font-size: 1.5em;
+  margin-top: 5vh;
+  margin-left: 5vw;
 }
